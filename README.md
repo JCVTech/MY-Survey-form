@@ -1,2 +1,74 @@
-# MY-Survey-form
-This is a Survey form for research purpose
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+    <h1 id="title">JCV Survey Form</h1>
+    <p id="description">This survey is for Research purpose. Fill all required field to earn $5</p>
+      </header>
+  <main>
+    <form id="survey-form">
+<label id="name-label">Full Name:</label>
+    <input type="text" id="name" required name="name" placeholder="Joshua Momodu">
+<label id="email-label">Email address:</label>
+<input type="email" id="email" required name="email" placeholder="joshcomputerventure@gmail.com">
+<label id="number-label">Phone Number:</label>
+<input  type="number" id="number" min="5" max="11" name="number" placeholder="+2348135963876"> 
+<label for="sex-label">Sex:</label>
+<select id="dropdown">
+  <option for="male">Male</option>
+  <option for="female">Female</option>
+  </select>
+  <p>What is your Marital Status</p>
+<input type="radio" id="single" name="status" value="Single">
+<label for="single">Single</label>
+<input type="radio" id="married" name="status" value="Married">
+<label for="married">Married</label>
+
+<p>Which of these country you have visited in the past 5 years</p>
+<input type="checkbox" id="canada" value="canada">
+<label for="canada">Canada</label>
+<input type="checkbox" id="australia" value="australia">
+<label for="australia">Australia</label>
+
+<input type="checkbox" id="finland" value="finland">
+<label for="finland">Finland</label>
+
+<input type="checkbox" id="united-kingdom" value="United Kingdom">
+<label for="united-kingdom">United Kingdom</label>
+
+<input type="checkbox" id="nigeria" value="Nigeria">
+<label for="nigeria">Nigeria</label>
+
+<input type="checkbox" id="usa" value="USA">
+<label for="usa">USA</label>
+
+<input type="checkbox" id="new-zealand" value="New Zealand">
+<label for="new-zealand">New Zealand</label>
+
+<input type="checkbox" id="france" value="France">
+<label for="france">France</label>
+
+<input type="checkbox" id="germany" value="Germany">
+<label for="germany">Germany</label>
+
+<input type="checkbox" id="malta" value="Malta">
+<label for="malta">Malta</label>
+
+<input type="checkbox" id="italy" value="italy">
+<label for="italy">Italy</label>
+
+<input type="checkbox" id="brazil" value="brazil">
+<label for="brazil">Brazil</label>
+
+  <p>Write a Short Comment on the Experience you got from this country</p>
+  <textarea>Enter your comment here</textarea> 
+  <button id="submit">Submit</button>
+      </form>
+  </main>
+  </body>
+</html>
